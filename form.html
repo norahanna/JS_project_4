@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .description{
+            display: block;
+            width:auto;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/action_page.php">
+        <div label for="title">Title</label><br>
+        <input type="text" name="title" id="title"><br><br>
+        </div>
+        <div label for="description">Description</label><br>
+        <input class="description" input="text" name="description" id="description"><br><br>
+        </div>
+        <div label for="category">Category</label><br>
+        <input type="text" name="category" id="category"><br><br>
+        </div>
+<label>Priority Level</label><br>
+<select name="Priority">
+	<option value="0">Select an item</option>
+	<option value="1">one</option>
+	<option value="2">two</option>
+	<option value="3">three</option>
+</select>
+<br><br>
+<label>Progress Level</label><br>
+<select name="Progress"><br>
+	<option value="0">Select an item</option>
+	<option value="1">one</option>
+	<option value="2">two</option>
+	<option value="3">three</option>
+</select>
+<br><br>
+<input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
